@@ -931,5 +931,5 @@ for fileNumber in fileNumbers:
 
     for filename in filesList:
         if "Vix" in filename and fileNumber in filename:
-            shutil.move(source, destination)
+            shutil.copy(source, destination)
 
